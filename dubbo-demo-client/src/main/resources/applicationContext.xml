@@ -20,6 +20,6 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181?client=curator" />
     -->
     <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}" client="${dubbo.registry.client}" />
-    <dubbo:reference id="demoService" interface="com.whl.dubbo.DemoService" />
+    <dubbo:reference id="demoService" interface="com.whl.dubbo.DemoService" timeout="${dubbo.reference.timeout}" />
 
 </beans>
