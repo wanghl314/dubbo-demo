@@ -26,10 +26,6 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
         </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-        </dependency>
         <!-- <dependency>
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
