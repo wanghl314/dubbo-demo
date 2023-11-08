@@ -13,7 +13,13 @@
         <curator.version>5.5.0</curator.version>
         <!-- org/apache/dubbo/dubbo -->
         <dubbo.version>3.2.7</dubbo.version>
+        <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
+        <dubbo-rpc-hessian.version>1.0.1</dubbo-rpc-hessian.version>
+        <!-- com/caucho/hessian -->
+        <hessian.version>4.0.66</hessian.version>
         <java.version>17</java.version>
+        <!-- org/eclipse/jetty/jetty-server -->
+        <jetty.version>9.4.53.v20231009</jetty.version>
         <!-- org/apache/maven/plugins/maven-compiler-plugin -->
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
@@ -52,6 +58,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.caucho</groupId>
+                <artifactId>hessian</artifactId>
+                <version>${hessian.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sgroschupf</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-x-discovery</artifactId>
                 <version>${curator.version}</version>
@@ -62,14 +78,21 @@
                 <version>${dubbo.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.sgroschupf</groupId>
-                <artifactId>zkclient</artifactId>
-                <version>${zkclient.version}</version>
+                <groupId>org.apache.dubbo.extensions</groupId>
+                <artifactId>dubbo-rpc-hessian</artifactId>
+                <version>${dubbo-rpc-hessian.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
                 <version>${zookeeper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-bom</artifactId>
+                <version>${jetty.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

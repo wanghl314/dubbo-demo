@@ -21,5 +21,6 @@
     -->
     <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}" client="${dubbo.registry.client}" />
     <dubbo:reference id="demoService" interface="com.whl.dubbo.DemoService" timeout="${dubbo.reference.timeout}" />
+    <dubbo:reference id="fileService" interface="com.whl.dubbo.FileService" timeout="${dubbo.reference.timeout}" />
 
 </beans>
