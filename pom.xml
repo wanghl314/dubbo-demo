@@ -12,7 +12,7 @@
         <!-- org/apache/curator/curator-x-discovery -->
         <curator.version>5.5.0</curator.version>
         <!-- org/apache/dubbo/dubbo -->
-        <dubbo.version>3.2.7</dubbo.version>
+        <dubbo.version>3.2.8</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
         <dubbo-rpc-hessian.version>1.0.1</dubbo-rpc-hessian.version>
         <!-- com/caucho/hessian -->
