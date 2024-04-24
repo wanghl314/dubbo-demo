@@ -14,7 +14,7 @@
         <!-- org/apache/dubbo/dubbo -->
         <dubbo.version>3.2.11</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
-        <dubbo-rpc-hessian.version>1.0.1</dubbo-rpc-hessian.version>
+        <dubbo-rpc-hessian.version>3.2.0</dubbo-rpc-hessian.version>
         <!-- com/caucho/hessian -->
         <hessian.version>4.0.66</hessian.version>
         <java.version>17</java.version>
@@ -25,7 +25,7 @@
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
         <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
         <!-- org/apache/maven/plugins/maven-source-plugin -->
-        <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <revision>1.0-SNAPSHOT</revision>
         <!-- com/github/sgroschupf/zkclient -->
         <zkclient.version>0.1</zkclient.version>
