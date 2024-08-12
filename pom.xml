@@ -10,20 +10,20 @@
 
     <properties>
         <!-- org/apache/curator/curator-x-discovery -->
-        <curator.version>5.6.0</curator.version>
+        <curator.version>5.7.0</curator.version>
         <!-- org/apache/dubbo/dubbo -->
-        <dubbo.version>3.2.14</dubbo.version>
+        <dubbo.version>3.2.15</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
-        <dubbo-rpc-hessian.version>3.2.0</dubbo-rpc-hessian.version>
+        <dubbo-rpc-hessian.version>3.3.0</dubbo-rpc-hessian.version>
         <!-- com/caucho/hessian -->
         <hessian.version>4.0.66</hessian.version>
         <java.version>17</java.version>
         <!-- org/eclipse/jetty/jetty-server -->
-        <jetty.version>9.4.54.v20240208</jetty.version>
+        <jetty.version>9.4.55.v20240627</jetty.version>
         <!-- org/apache/maven/plugins/maven-compiler-plugin -->
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
-        <maven-javadoc-plugin.version>3.7.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.8.0</maven-javadoc-plugin.version>
         <!-- org/apache/maven/plugins/maven-source-plugin -->
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <revision>1.0-SNAPSHOT</revision>
