@@ -14,6 +14,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.whl.dubbo</groupId>
             <artifactId>dubbo-demo-common</artifactId>
             <version>${project.version}</version>

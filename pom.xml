@@ -84,8 +84,10 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
-                <artifactId>zookeeper</artifactId>
+                <artifactId>parent</artifactId>
                 <version>${zookeeper.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
