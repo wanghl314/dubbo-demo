@@ -12,9 +12,9 @@
         <!-- org/apache/curator/curator-x-discovery -->
         <curator.version>5.7.1</curator.version>
         <!-- org/apache/dubbo/dubbo -->
-        <dubbo.version>3.2.16</dubbo.version>
+        <dubbo.version>3.3.2</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
-        <dubbo-extensions.version>3.3.0</dubbo-extensions.version>
+        <dubbo-extensions.version>3.3.1</dubbo-extensions.version>
         <!-- com/caucho/hessian -->
         <hessian.version>4.0.66</hessian.version>
         <java.version>17</java.version>
@@ -23,10 +23,14 @@
         <!-- org/apache/maven/plugins/maven-compiler-plugin -->
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
-        <maven-javadoc-plugin.version>3.11.1</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
         <!-- org/apache/maven/plugins/maven-source-plugin -->
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <revision>1.0-SNAPSHOT</revision>
+        <!-- javax/servlet/javax.servlet-api -->
+        <servlet-api.version>4.0.1</servlet-api.version>
+        <!-- org/springframework/spring-context -->
+        <springframework.version>6.2.1</springframework.version>
         <!-- com/github/sgroschupf/zkclient -->
         <zkclient.version>0.1</zkclient.version>
         <!-- org/apache/zookeeper/zookeeper -->
@@ -68,6 +72,12 @@
                 <version>${zkclient.version}</version>
             </dependency>
             <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-x-discovery</artifactId>
                 <version>${curator.version}</version>
@@ -95,6 +105,11 @@
                 <version>${jetty.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${springframework.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -163,5 +178,6 @@
         <module>dubbo-demo-client</module>
         <module>dubbo-demo-server</module>
         <module>dubbo-demo-common</module>
+        <module>dubbo-remoting-http</module>
     </modules>
 </project>
