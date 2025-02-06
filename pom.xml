@@ -12,14 +12,14 @@
         <!-- org/apache/curator/curator-x-discovery -->
         <curator.version>5.7.1</curator.version>
         <!-- org/apache/dubbo/dubbo -->
-        <dubbo.version>3.3.2</dubbo.version>
+        <dubbo.version>3.3.3</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
         <dubbo-extensions.version>3.3.1</dubbo-extensions.version>
         <!-- com/caucho/hessian -->
         <hessian.version>4.0.66</hessian.version>
         <java.version>17</java.version>
         <!-- org/eclipse/jetty/jetty-server -->
-        <jetty.version>9.4.56.v20240826</jetty.version>
+        <jetty.version>9.4.57.v20241219</jetty.version>
         <!-- org/apache/maven/plugins/maven-compiler-plugin -->
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
@@ -30,7 +30,7 @@
         <!-- javax/servlet/javax.servlet-api -->
         <servlet-api.version>4.0.1</servlet-api.version>
         <!-- org/springframework/spring-context -->
-        <springframework.version>6.2.1</springframework.version>
+        <springframework.version>6.2.2</springframework.version>
         <!-- com/github/sgroschupf/zkclient -->
         <zkclient.version>0.1</zkclient.version>
         <!-- org/apache/zookeeper/zookeeper -->
