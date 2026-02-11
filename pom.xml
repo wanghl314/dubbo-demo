@@ -12,7 +12,7 @@
         <!-- org/apache/curator/curator-x-discovery -->
         <curator.version>5.9.0</curator.version>
         <!-- org/apache/dubbo/dubbo -->
-        <dubbo.version>3.3.5</dubbo.version>
+        <dubbo.version>3.3.6</dubbo.version>
         <!-- org/apache/dubbo/extensions/dubbo-rpc-hessian -->
         <dubbo-extensions.version>3.3.1</dubbo-extensions.version>
         <!-- com/caucho/hessian -->
@@ -21,20 +21,20 @@
         <!-- org/eclipse/jetty/jetty-server -->
         <jetty.version>9.4.58.v20250814</jetty.version>
         <!-- org/apache/maven/plugins/maven-compiler-plugin -->
-        <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
         <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
-        <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
         <!-- org/apache/maven/plugins/maven-source-plugin -->
-        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+        <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
         <revision>1.0-SNAPSHOT</revision>
         <!-- javax/servlet/javax.servlet-api -->
         <servlet-api.version>4.0.1</servlet-api.version>
         <!-- org/springframework/spring-context -->
-        <springframework.version>6.2.10</springframework.version>
+        <springframework.version>6.2.15</springframework.version>
         <!-- com/github/sgroschupf/zkclient -->
         <zkclient.version>0.1</zkclient.version>
         <!-- org/apache/zookeeper/zookeeper -->
-        <zookeeper.version>3.8.4</zookeeper.version>
+        <zookeeper.version>3.8.5</zookeeper.version>
     </properties>
 
     <repositories>
